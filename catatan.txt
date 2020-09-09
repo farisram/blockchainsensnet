@@ -1,0 +1,11 @@
+Progress alat 80 -- 90%
+PR :
+    - Mengirim blok ke 2 server
+    - Memverifikasi blok dengan membandingkan dengan blok pada server lain
+    - 
+
+Catatan : 
+    - Node berubah dari 4 menjadi 3
+    - Sensor yang digunakan Suhu, Jarak, dan Photoresistor/Cahaya
+    - Server menggunakan VM dengan OS lubuntu
+    

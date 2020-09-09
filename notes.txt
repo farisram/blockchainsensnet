@@ -1,0 +1,29 @@
+create array to contains arduino data...
+    Success
+How to set array values as class attributes?
+    Done
+How this system works?
+    >>Arduino send data
+    >>Server save arduino data in array
+    >>Server access arduino data from array
+
+    Data in >> Server get data >> Server create block >> Block saved in (ID).txt >> Send file
+    Data    >> Array           >> Class               >> File.txt
+
+##--------------------------------------- NEW PLAN ---------------------------------------##
+1. Server take data by order, not automatically
+2.  -> Get data             ---> by order
+    -> Create block         ---| 3 servers (Done)
+    -> Establish connections   | 3 servers (Done)
+    -> Send block              |---> 3 servers (Done)
+    -> Verify block            |
+    -> Save block           ---|
+3. Target hari ini :
+    -> Server online terus -- Done
+    -> Mengubah file menjadi list -- Done
+
+4. PR : 
+    -> Bagaimana agar input filename secara otomatis?
+    -> Bagaimana agar dapat mendeteksi last file secara otomatis?
+        -> menggunakan list, index n-1
+        
